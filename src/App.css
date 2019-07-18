@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1400px) {
+  .App {
+   width: 1400px;
+  }
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
